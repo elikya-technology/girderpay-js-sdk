@@ -1,5 +1,5 @@
 {
-  "name": "@girdercore/sdk",
+  "name": "@girderpay/js-sdk",
   "version": "1.0.0",
   "description": "Official TypeScript SDK for the GirderCore payment orchestration API",
   "main": "dist/cjs/index.js",
