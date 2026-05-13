@@ -1,4 +1,4 @@
-# @girderpay/js-sdk
+# @girder-core/pay-js
 
 Official TypeScript SDK for the [GirderCore](https://girderpay.com) payment orchestration API.
 
@@ -11,13 +11,13 @@ The SDK exposes generic payment orchestration concepts so application code is no
 ## Installation
 
 ```bash
-npm install @girderpay/js-sdk
+npm install @girder-core/pay-js
 ```
 
 ## Client Setup
 
 ```ts
-import { GirderCoreClient } from "@girderpay/js-sdk";
+import { GirderCoreClient } from "@girder-core/pay-js";
 
 const client = new GirderCoreClient({
   apiKey: process.env.GIRDER_API_KEY!,
@@ -92,7 +92,7 @@ import {
   GirderCoreInvalidJsonError,
   GirderCoreNetworkError,
   GirderCoreTimeoutError,
-} from '@girderpay/js-sdk';
+} from '@girder-core/pay-js';
 
 try {
   await client.initPayment({ ... });
